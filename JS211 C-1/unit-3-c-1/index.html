@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+       body{
+        margin: 0%;
+        font: 1em sans-serif;
+        box-sizing: border-box;
+        background-color: rgb(231, 231, 231);
+      }
+      #navbar{
+        width: 20%;
+        margin: 20px 150px;
+      }
+      #navbar>button{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+        background-color:darkcyan;
+        border: none;
+      }
+      #navbar>button:hover{
+        width: 90%;
+        margin: auto;
+        background-color:black;
+        border: none;
+      }
+      #navbar>button>a{
+        text-decoration: underline;
+        font: 1.0em sans-serif;
+        color: white;
+      }
+
+      div>h2{
+        width: 12%;
+        margin: auto;
+        margin: 20px auto;
+      }
+      #products{
+        width: 30%;
+        height: 500px;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+      }
+      input[type="text"],input[type="number"]{
+        width: 70%;
+        margin: auto;
+        padding: 18px;
+        font: 1.0em sans-serif;
+      }
+      input[type="submit"]{
+        width: 40%;
+        margin: auto;
+        padding: 18px ;
+        font: 1.0em sans-serif;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        background-color: green;
+      }
+      input[type="submit"]:hover{
+        color: black;
+        background-color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="navbar">
+      <!--Create Show Products button here, give id as "show_products". avoid making spelling mistakes in HTML id's-->
+      <button id="show_products"> <a href="./inventory.html">Show Products</a></button>
+
+    </div>
+    <div>
+      <h2>Add Products</h2>
+      <!--Create a form here to accept product data from user, give form HTML id as "products"-->
+
+      <form action="" id="products" onsubmit="products()">
+        <input type="text"  id="type" placeholder="Type Of Product">
+        <input type="text" id="desk" placeholder="Description">
+        <input type="number" id="price" placeholder="Price">
+        <input type="text" id="image" placeholder="Image URL">
+
+        <input type="submit" id="add_product" value="Add Product">
+
+      </form>
+      <!--Create four inputs to accept Type, Description, price, & image-->
+      <!--give the inputs following respective id's, "type", "desc", "price","image"-->
+      <!--create a "Add Product" button to submit form, give it html id as "add_product"-->
+      </form>
+    </div>
+  </body>
+</html>
+
+<script src="./scripts/index.js"></script>

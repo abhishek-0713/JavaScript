@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="./style/checkout.css">
+  </head>
+
+  <body>
+    <h1>Order Now !!</h1>
+    <div id="order-form">
+      <!--Add your form html element here-->
+      <!--In form, give #name,#number and #address as HTML id's to relevant input elements -->
+      <!-- confirm button with id "confirm" -->
+      <form action="" id="form" onsubmit="checkOut()">
+        <input type="text"  id="name" placeholder="CardHolder Name" required>
+        <input type="number"  id="number" placeholder="Card Number" required>
+        <input type="text"  id="address" placeholder="Address">
+        <input type="submit" id="confirm" value="Confirm" >
+      </form>
+    </div>
+  </body>
+</html>
+<script src="./scripts/checkout.js"></script>

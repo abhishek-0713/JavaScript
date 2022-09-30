@@ -1,0 +1,147 @@
+* {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+#navbar {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 60px;
+  background-color: coral;
+  position: sticky;
+  top: 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 10;
+}
+#navbar > div:first-child {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: bolder;
+}
+#navbar > div:first-child > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+#navbar > div:nth-child(2) {
+  width: 40%;
+}
+#navbar > div:last-child {
+  width: 40%;
+}
+#navbar > div > input {
+  width: 80%;
+  padding: 10px 10px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+#sidebar {
+  width: 20%;
+  margin-top: 20px;
+}
+#news_container {
+  width: 75%;
+  margin-top: 20px;
+  margin: auto;
+}
+/* #sidebar > div {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 20px;
+  height: 55px;
+  padding-left: 7px;
+  font-size: 25px;
+  background-color: coral;
+} */
+
+#News {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* #sidebar > #sidebarMenu > div {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 80px;
+  display: block;
+} */
+
+.news {
+  width: 95%;
+  height: auto;
+  display: flex;
+  margin: 12px auto;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.news > div:first-child {
+  width: 25%;
+}
+.news > div > img {
+  width: 100%;
+}
+
+.news > div:last-child {
+  width: 70%;
+  margin-left: 10px;
+}
+.news > div:last-child {
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  color: #4c4c4c;
+}
+
+/* News.HTML */
+
+#show_news {
+  width: 50%;
+  margin: auto;
+  margin-top: 2%;
+}
+#show_news > div > img {
+  width: 100%;
+  margin-bottom: 2%;
+}
+#show_news > div > h2 {
+  color: black;
+}
+#show_news > div > b {
+  color: rgb(194, 19, 19);
+}
+#show_news > div > p {
+  color: rgb(67, 67, 67);
+}
+
+
+#userDetails{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 20px;
+}
+#userDetails > img{
+  width: 100%;
+}
+
+#nav{
+
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  font: 1.5em sans-serif;
+}

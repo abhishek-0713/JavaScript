@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+   font-family: sans-serif;
+   box-sizing: border-box;
+}
+#navbar{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font: 1.5em sans-serif;
+}
+
+#navbar>div{
+    margin-right: 50px;
+}
+
+#menu{
+    width: 95%;
+    margin:auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2%;
+}
+.subContainer{
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    text-align: end;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.subContainer>img{
+    width: 100%;
+    height: 300px;
+}
+
+#add_to_bucket{
+    width: 40%;
+    margin-top: 10px;
+    padding: 10px;
+}

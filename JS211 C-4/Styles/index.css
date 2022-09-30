@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+#navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    background-color: coral;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#user-form{
+    width: 30%;
+    height: 450px;
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#user-form input,#user-form select{
+    width: 90%;
+    margin: auto;
+    padding: 15px;
+    
+}

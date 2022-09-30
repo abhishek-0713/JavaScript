@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#search_bar{
+    width: 20%;
+    margin: auto;
+    margin-top: 2%;
+}
+#search{
+    padding: 20px;
+    font: 1.3em sans-serif;  
+}
+
+#movies{
+    width: 95%;
+    margin: auto;
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2%;
+
+}
+.movie_tab{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.movie_tab>img{
+    width: 100%;
+    height: 550px;
+}
+
+#typeDiv{
+    display: flex;
+    justify-content: space-between;
+    font: 1em sans-serif;
+}
+
+.book_now{
+    padding: 15px;
+}
