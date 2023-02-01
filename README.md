@@ -1,2 +1,2 @@
 # JavaScript
-`Best JavaScript Questions`
+`Advance JavaScript Questions`
